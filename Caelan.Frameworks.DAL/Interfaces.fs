@@ -1,6 +1,8 @@
 ﻿namespace Caelan.Frameworks.DAL.Interfaces
+    [<AllowNullLiteral>]
     type IEntity = interface end
 
+    [<AllowNullLiteral>]
     type IEntity<'TKey when 'TKey :> System.IEquatable<'TKey>> =
         inherit IEntity
         abstract member ID : 'TKey with get, set
