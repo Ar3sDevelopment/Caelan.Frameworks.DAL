@@ -16,7 +16,7 @@ open System.Runtime.InteropServices
 
 [<assembly: Guid("8f7045ee-e444-47e4-a27c-83485f95d887")>]
 
-[<assembly: AssemblyVersion("2.0.4.*")>]
+[<assembly: AssemblyVersion("2.0.5.*")>]
 
 
 ()
