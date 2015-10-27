@@ -1,5 +1,7 @@
 #Caelan.Frameworks.DAL NuGet Package#
 
+[![Join the chat at https://gitter.im/Ar3sDevelopment/Caelan.Frameworks.DAL](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Ar3sDevelopment/Caelan.Frameworks.DAL?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##What is it?
 My DAL frameworks provide an empty IEntity interface and a generic IEntity with an ID of type T that must declare a get method. The T (or TKey) must implement the IEquatable interface, so you can use any object you want but remember the dependency.
 
